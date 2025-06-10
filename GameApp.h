@@ -4,6 +4,7 @@
 #include <string>
 #include "InputManager.h"
 #include "TextureManager.h"
+#include "SceneManager.h"
 
 class GameApp {
 public:
@@ -24,4 +25,5 @@ private:
 private:
     InputManager input;
     TextureManager textures;
+    SceneManager sceneManager;
 };
